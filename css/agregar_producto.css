@@ -1,0 +1,94 @@
+.seccion-agregar-producto {
+    background-color: #F5F5F5;
+    margin-top: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-agregar-producto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 559px;
+}
+
+.titulo-agregar-producto {
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+.input-url {
+    padding: 0 16px;
+    height: 56px;
+    font-size: 12px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+}
+
+.input-categoria {
+    padding: 0 16px;
+    height: 56px;
+    font-size: 12px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+}
+
+.input-nombre {
+    padding: 0 16px;
+    height: 56px;
+    font-size: 12px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+}
+
+.input-precio {
+    padding: 0 16px;
+    height: 56px;
+    font-size: 12px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+}
+
+.input-descripcion {
+    padding: 16px;
+    height: 82px;
+    font-size: 12px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+}
+
+.boton-agregar-producto {
+    height: 62px;
+    background-color: #2A7AE4;
+    font-size: 18px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    border: none;
+}
+
+.boton-agregar-producto:hover{
+    cursor: pointer;
+    background-color: #044fb1;
+}
+
+.val_message{
+    padding-left: 16px;
+    color: red;
+    font-size: 12px;
+    font-family: 'Raleway';
+}

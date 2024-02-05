@@ -1,0 +1,39 @@
+.banner {
+    height: 352px;
+    width: 100%;
+    background-image: url(../assets/banner2.png);
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-banner {
+    width: 1136px;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    line-height: 3.5rem;
+}
+
+.titulo-banner {
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: bold;
+    color: #464646;
+    margin-bottom: 0.7rem;
+}
+
+.boton-banner {
+    height: 51px;
+    width: 129px;
+    background: #2A7AE4;
+    color: white;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.boton-banner:hover {
+    cursor: pointer;
+    font-size: 18px;
+}

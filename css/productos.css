@@ -1,0 +1,87 @@
+.productos-todos {
+    background-color: #F5F5F5;
+    margin-top: 2rem;
+    padding: 3rem 5rem;
+}
+
+.productos-todos_titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-productos {
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #464646;
+}
+
+.boton-agregar-producto {
+    background-color: #2A7AE4;
+    height: 51px;
+    width: 163px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: none;
+}
+
+.contenedor-todos-productos {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-img-productos {
+    position: relative;
+}
+
+.icono-eliminar-productos {
+    position: absolute;
+    right: 37px;
+    top: 5px;
+}
+
+.icono-editar-productos {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.productos-titulo {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.productos-precio {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.boton-agregar-producto:hover {
+    cursor: pointer;
+    background-color: #044fb1;
+}
+
+.icono-editar-productos:hover {
+    cursor: pointer;
+}
+
+.icono-eliminar-productos:hover {
+    cursor: pointer;
+}

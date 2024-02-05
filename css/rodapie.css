@@ -1,0 +1,79 @@
+.rodapie {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7dab6;
+    padding: 3rem 7rem;
+}
+
+.contacto-rodapie {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-between;
+}
+
+.items-rodapie {
+    font-size: 16px;
+    color: #464646;
+    font-family: 'Raleway';
+    line-height: 2.28;
+}
+
+.contacto-rodapie label {
+    font-size: 16px;
+    color: #464646;
+    font-family: 'Raleway';
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.contacto-rodapie input {
+    height: 56px;
+    width: 560px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway';
+}
+
+.contacto-rodapie textarea {
+    padding-left: 15px;
+    padding-top: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway';
+}
+
+.contacto-rodapie button {
+    height: 51px;
+    width: 144px;
+    background-color: #2A7AE4;
+    font-size: 16px;
+    color: white;
+    font-family: 'Raleway';
+    border: none;
+}
+
+.rodapie-datos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+    color: #464646;
+    text-align: center;
+}
+
+.contacto-rodapie button:hover {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.error {
+    padding-left: 16px;
+    color: red;
+    font-size: 12px;
+    font-family: 'Raleway';
+    line-height: 2;
+}
