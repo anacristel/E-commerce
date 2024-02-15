@@ -5,18 +5,17 @@
     padding: 3rem 7rem;
 }
 
-.contacto-rodapie {
-    display: flex;
-    flex-direction: column;
-    height: 240px;
-    justify-content: space-between;
-}
-
 .items-rodapie {
     font-size: 16px;
     color: #464646;
     font-family: 'Raleway';
     line-height: 2.28;
+}
+
+.contacto-rodapie {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .contacto-rodapie label {

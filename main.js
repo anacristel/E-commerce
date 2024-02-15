@@ -1,4 +1,4 @@
-import { catChamoyadas, catFrappes, catPostres } from './productos.js';
+//import { catChamoyadas, catFrappes, catPostres } from './productos.js';
 
 const input_name = document.querySelector('#input-name'),
     textarea = document.querySelector('#textarea'),
@@ -46,6 +46,6 @@ btn_form.addEventListener("click", (e) => {
 
 
 //  productos por categoria
-catChamoyadas();
+/* catChamoyadas();
 catPostres();
-catFrappes();
+catFrappes(); */

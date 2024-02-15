@@ -5,12 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem 0px;
-
-}
-
-.categorias {
-    width: 1133px;
+    gap: 64px;
 }
 
 .productos-header {
@@ -18,6 +13,7 @@
     justify-content: space-between;
     height: 38px;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .titulo-categorias {
@@ -34,9 +30,13 @@
     border: none;
 }
 
-.contenedor-categorias{
+.container-productos {
     display: flex;
     gap: 16px;
+}
+
+.producto {
+    line-height: 1.25;
 }
 
 .img-productos {

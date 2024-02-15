@@ -107,7 +107,7 @@ export const arrayProductos = [
     },
     {
         id: 'frape-06',
-        titulo: 'Frappé de nutella.',
+        titulo: 'Frappé de nutella',
         imagen: './assets/productos/frape6.png',
         precio: '70.00',
         categoria: 'frape'
@@ -187,8 +187,8 @@ function cargarProductos() {
         div.innerHTML = `
         <div class="container-img-productos">
             <img src="${producto.imagen}" alt="${producto.titulo}">
-                <img src="assets/delete3.png" class="icono-eliminar-productos">
-                <img src="assets/edit7.png" class="icono-editar-productos">
+                <img src="assets/delete-a.png" class="icono-eliminar-productos">
+                <img src="assets/edit-a.png" class="icono-editar-productos">
         </div>
                 <p class="productos-titulo">${producto.titulo}</p>
                 <span class="productos-precio">$ ${producto.precio}</span>`
@@ -197,7 +197,7 @@ function cargarProductos() {
 }
 
 
-export function catChamoyadas() {
+/* export function catChamoyadas() {
     const chamoyadas = document.querySelector('#cat-chamoyadas');
     for (var i = 0; i <= 5; i++) {
         const arr = arrayProductos[i];
@@ -234,9 +234,9 @@ export function catFrappes() {
             <p class="precio-productos">$ ${arr.precio}</p>`
         frappes.append(div);
     }
-}
+} */
 
-//cargarProductos();
+cargarProductos();
 
 document.querySelector(".boton-busqueda").addEventListener('click', () => {
     let input_busqueda = document.querySelector(".input-busqueda").value;
