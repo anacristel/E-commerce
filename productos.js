@@ -196,62 +196,22 @@ function cargarProductos() {
     });
 }
 
-
-/* export function catChamoyadas() {
-    const chamoyadas = document.querySelector('#cat-chamoyadas');
-    for (var i = 0; i <= 5; i++) {
-        const arr = arrayProductos[i];
-        const div = document.createElement('div');
-        div.innerHTML = `
-            <img src="${arr.imagen}" alt="${arr.titulo}" class="img-productos">
-            <p class="titulo-productos">${arr.titulo}</p>
-            <p class="precio-productos">$ ${arr.precio}</p>`
-        chamoyadas.append(div);
-    }
-}
-
-const postres = document.querySelector('#cat-postres');
-export function catPostres() {
-    for (var i = 10; i <= 15; i++) {
-        const arr = arrayProductos[i];
-        const div = document.createElement('div');
-        div.innerHTML = `
-            <img src="${arr.imagen}" alt="${arr.titulo}" class="img-productos">
-            <p class="titulo-productos">${arr.titulo}</p>
-            <p class="precio-productos">$ ${arr.precio}</p>`
-        postres.append(div);
-    }
-}
-
-const frappes = document.querySelector('#cat-frappes');
-export function catFrappes() {
-    for (var i = 17; i <= 22; i++) {
-        const arr = arrayProductos[i];
-        const div = document.createElement('div');
-        div.innerHTML = `
-            <img src="${arr.imagen}" alt="${arr.titulo}" class="img-productos">
-            <p class="titulo-productos">${arr.titulo}</p>
-            <p class="precio-productos">$ ${arr.precio}</p>`
-        frappes.append(div);
-    }
-} */
-
 cargarProductos();
 
-document.querySelector(".boton-busqueda").addEventListener('click', () => {
+/* document.querySelector(".boton-busqueda").addEventListener('click', () => {
     let input_busqueda = document.querySelector(".input-busqueda").value;
     /* let nombre_productos = document.querySelectorAll(".titulo-productos");
     let cards = document.querySelectorAll(".producto");
-    const div = document.querySelector(".header-barra-busqueda"); */
+    const div = document.querySelector(".header-barra-busqueda");
     console.log(input_busqueda);
 
    const container= document.querySelector(".header-barra-busqueda");
     arrayProductos.forEach((producto) => {
         if (producto.titulo.toLowerCase().includes(input_busqueda.toLowerCase())) {
-            console.log("ya mero");
+            console.log("funciona");
           
            
         }
     })
 
-});
+}); */
